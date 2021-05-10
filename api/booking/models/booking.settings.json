@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bookings",
+  "info": {
+    "name": "Booking"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "startLocation": {
+      "type": "string",
+      "required": true
+    },
+    "destination": {
+      "type": "string",
+      "required": true
+    },
+    "taxiType": {
+      "type": "string",
+      "required": true
+    },
+    "distance": {
+      "type": "decimal"
+    },
+    "fare": {
+      "type": "decimal"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "locations",
+  "info": {
+    "name": "Location"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "longitude": {
+      "type": "decimal"
+    },
+    "latitude": {
+      "type": "decimal"
+    }
+  }
+}

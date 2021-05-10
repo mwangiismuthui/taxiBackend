@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "taxis",
+  "info": {
+    "name": "Taxi"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "adittionalLevy": {
+      "type": "decimal"
+    }
+  }
+}

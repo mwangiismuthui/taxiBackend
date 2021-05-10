@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/taxis",
+      "handler": "taxi.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/taxis/count",
+      "handler": "taxi.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/taxis/:id",
+      "handler": "taxi.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/taxis",
+      "handler": "taxi.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/taxis/:id",
+      "handler": "taxi.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/taxis/:id",
+      "handler": "taxi.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
